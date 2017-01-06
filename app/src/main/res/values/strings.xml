@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Preferences</string>
     <string name="action_settings">Settings</string>
+    
+    <string-array name="font_sizes">
+        <item>25dp</item>
+        <item>40dp</item>
+        <item>45dp</item>
+        <item>50dp</item>
+        <item>55dp</item>
+        <item>60dp</item>
+        <item>65dp</item>
+        <item>70dp</item>
+    </string-array>
+
+    <string-array name="font_sizes_values">
+        <item>25</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+    </string-array>
 </resources>

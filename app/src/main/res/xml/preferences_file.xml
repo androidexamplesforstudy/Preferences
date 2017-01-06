@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="settings">
+        <CheckBoxPreference
+            android:key="CHECKBOX_FONT_NR1"
+            android:title="Back To Black"
+            android:summary="Font nr 1"
+            android:defaultValue="Back to Black Demo.otf"></CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="CHECKBOX_FONT_NR2"
+            android:title="Orange Juice"
+            android:summary="Font nr 2"
+            android:defaultValue="orange juice 2.0.ttf"></CheckBoxPreference>
+
+        <ListPreference android:key="FONT_SIZE_1"
+            android:title="specify size of fonts"
+            android:dialogTitle="Choose one of those sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:defaultValue="10">
+
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
